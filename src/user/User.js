@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { HashRouter as Router, Route, Link, Switch } from '../router'
+import { HashRouter as Router, Route, Link, Switch, MenuLink } from '../router'
 import UserAdd from './UserAdd'
 import UserList from './UserList'
 import UserDetail from './UserDetail'
@@ -10,9 +10,9 @@ export default class User extends Component {
   render() {
     return (
         <div>
-          <Link to="/user/add"><span style={{ marginRight: 20 }}>添加用户</span></Link>
-          <Link to="/user/list"><span style={{ marginRight: 20 }}>用户列表</span></Link>
-          <Link to="/user/edit"><span style={{ marginRight: 20 }}>编辑用户</span></Link>
+          <MenuLink to="/user/add">添加用户</MenuLink>
+          <MenuLink to="/user/list">用户列表</MenuLink>
+          <MenuLink to="/user/edit">编辑用户</MenuLink>
           <Switch>
             <Route path="/user/add" component={UserAdd}></Route>
             <Route path="/user/edit" component={UserEdit}></Route>

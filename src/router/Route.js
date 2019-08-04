@@ -36,14 +36,14 @@ export default class Route extends Component {
         return render(props)
       } else {
         if (children) {
-
+          return children(props)
         } else {
           return null
         }
       }
     } else {
       if (children) {
-
+        return children(props)
       } else {
         return null
       }
