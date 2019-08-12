@@ -1,0 +1,26 @@
+li {
+  ul {
+    display: none;
+    transition: all 0.5s;
+  }
+  .arrowIcon {
+    z-index: 10;
+    cursor: pointer;
+  }
+  &.active > .title {
+    background: blue;
+    .icon {
+      color: lightblue;
+    }
+  }
+
+  &.expanded > .title {
+    .arrowIcon {
+      transform: rotate(90deg);
+      transition: all 0.5s;
+    }
+  }
+  &.expanded > ul {
+    display: block;
+  }
+}

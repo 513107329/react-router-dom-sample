@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "username": "艺福堂茶业有限公司",
+        "pinyin": "yifutangchayeyouxiangongsi",
+        "children": [
+            {
+                "id": 2,
+                "username": "茶仓云端",
+                "pinyin": "chacangyunduan",
+                "children": [
+                    {
+                        "id": 3,
+                        "username": "艺福堂品牌部",
+                        "pinyin": "yifutangpinpaibu",
+                        "children": [
+                            {
+                                "id": 4,
+                                "username": "研发部",
+                                "pinyin": "yanfabu",
+                                "children": [],
+                                "member": [
+                                    {
+                                        "id": 5,
+                                        "username": "三叶",
+                                        "pinyin": "sanye"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "username": "艺福堂支持中心",
+                "pinyin": "yifutangzhichizhongxin",
+                "children": [
+                    {
+                        "id": 7,
+                        "username": "研发部",
+                        "pinyin": "yanfabu",
+                        "children": [],
+                        "member": [
+                            {
+                                "id": 8,
+                                "username": "落葵",
+                                "pinyin": "yanfabu"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
